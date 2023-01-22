@@ -14,7 +14,7 @@ const Search = () => {
             let res = await axios.get('http://127.0.0.1:3001/book');
             setData(res.data);
         };
-        
+
         fetchData();
     }, []);
 
